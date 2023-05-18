@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*the parent of #logo-container & #nav-list*/
+#logo-and-nav-bar-container {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: fixed;
+    background-image: linear-gradient(to left, #5de0e6, #004aad);
+    z-index: 2;
+}
+
+/*1st child of #logo-nav-bar-container*/
+#logo-container {
+    position: fixed;
+    left: 350px;
+    top: 10px;
+}
+
+/*2nd child of #logo-nav-bar-container*/
+#nav-list {
+    margin: 20px;
+
+}
+
+/*childs of #nav-list*/
+.links-items {
+    display: inline;
+    padding: 10px;
+}
+
+/*childs of .links-items*/
+.anchors {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+#experince-img-rami-container{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#experince-img-marie-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#experince-back-ground-img-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    z-index: 0;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: relative;
+    
+}
+#experince-road-img-container{
+    width: 45%;
+}
+
+
+#start-working-statment-container{
+align-self: flex-end;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    position:absolute;
+    right: 10%;
+    top: 3%;
+}
+#now-statment-container{
+    align-self: flex-end;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    position:absolute;
+    right: 10%;
+    bottom: 0%;
+}

@@ -1,0 +1,98 @@
+/*the parent of #hero & #rami-img-container */
+header{
+    background-image: url('https://lh3.google.com/u/0/d/1iDV-X_goEk4CpnniXDwj3yGy5QtaAC5E=w1600-h800-iv2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+/*1st child of header*/
+#hero{
+    
+    flex: 1 1 66%;
+ 
+}
+/*the 2nd child of the header*/
+#rami-img-container{
+   
+    flex : 1 1 33%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+/*the Parent of #logo-and-nav-bar-container & #hero-content*/
+#hero{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+/*1st child of #hero*/
+#logo-and-nav-bar-container{
+    position: fixed;
+    top: 10px;
+    left:100px;
+}
+/*2nd child of #hero*/
+#hero-content{
+    align-self: center;
+
+}
+
+/*the parent of #logo-container & #nav-list*/
+#logo-and-nav-bar-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+/*1st child of #logo-nav-bar-container*/
+#logo-container{
+    margin:20px;
+}
+/*2nd child of #logo-nav-bar-container*/
+#nav-list{
+    margin:30px;
+
+}
+/*childs of #nav-list*/
+.links-items{
+    display: inline;
+    padding:20px;
+}
+/*childs of .links-items*/
+.anchors{
+    text-decoration: none;
+    color:#142073;
+    font-size: 2em;
+    font-weight: 400;
+}
+/*the parent of .hero-headline & #job-title*/
+#hero-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+/*the childs of #hero content*/
+.hero-headline,#job-title{
+    align-self: center;
+    color:#142073;
+
+}
+/*the child of .hero-headline*/
+#rami-word{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#142073;
+}
+#job-title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+img{
+    padding: 0;
+    margin: 0;
+}

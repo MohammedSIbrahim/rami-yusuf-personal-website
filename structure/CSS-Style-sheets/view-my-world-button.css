@@ -1,0 +1,22 @@
+/*parent*/
+#view-my-world-container{
+    width: 99vw;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#004AAD;
+}
+/*child*/
+#view-my-world-button{
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #142073;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 0 20px;
+    width:20%;
+
+}

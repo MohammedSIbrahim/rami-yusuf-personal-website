@@ -1,0 +1,37 @@
+{
+  "navBar": {
+    "hyperLinks": {
+      "home": "home",
+      "about": "about",
+      "experience": "experience",
+      "works": "works",
+      "contacts": "contacts",
+      "physics-plus": "physics plus"
+    },
+    "colorTheme":{
+      "homePage":{
+        "mainColor":"#142073",
+        "activeColor":"#0593B2"
+      },
+      "otherPages":{
+        "mainColor":"#FBFCFC",
+        "activeColors":"#004AAD",
+        "backgroundColors":{
+          "stColor":"#5DE0E6",
+          "ndColor":"#0078A6"
+        }
+      },
+    "fonts":{
+      "homePage":{
+        "fontWieght":"400",
+        "fontSize":"2rem"
+      },
+      "otherPages":{
+        "fontWieght":"300",
+        "fontSize":"1rem"
+      }
+    }
+
+    }
+  }
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*the parent of #logo-container & #nav-list*/
+#logo-and-nav-bar-container {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: fixed;
+    background-image: linear-gradient(to left, #5de0e6, #004aad);
+}
+
+/*1st child of #logo-nav-bar-container*/
+#logo-container {
+    position: fixed;
+    left: 350px;
+    top: 10px;
+}
+
+/*2nd child of #logo-nav-bar-container*/
+#nav-list {
+    margin: 20px;
+
+}
+
+/*childs of #nav-list*/
+.links-items {
+    display: inline;
+    padding: 10px;
+}
+
+/*childs of .links-items*/
+.anchors {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+
+#flexable-content-of-id-and-teaching-philosophy-container {
+  
+    width: 50%;
+    height: 90%;
+    position: fixed;
+    top: 7%;
+    left: 30%;
+}
+
+#flexable-content-of-id-and-teaching-philosophy-container {
+    display: flex;
+    flex-flow: column nowrap;
+    height:93%;
+}
+
+#hey-there-statment,
+#geek-out-statment,
+#flexable-texts-container,
+#id-and-teaching-philosophy-container {
+    /* border: 1px solid black; */
+
+    margin: 30px;
+}
+#id-and-teaching-philosophy-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+}
+#flexable-texts-container{
+    width: 100%;
+    height: 50%;
+
+}
+#id-icon-and-caption-contianer,#teaching-philosophy-icon-and-caption-contianer{
+    margin: 25px;
+}
+#id-icon-and-caption-contianer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+#id-word,.teaching-philosophy-word{
+    align-self: center;
+}
+
+#about-img-rami-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+}
+
+#about-img-newton-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#double-quote-up {
+    font-size: 200px;
+    position: fixed;
+    left: 350px;
+    top: 150px;
+    rotate: 180deg;
+
+}
+
+#double-quote-down {
+    font-size: 200px;
+    position: fixed;
+    right: 200px;
+    bottom: 150px;
+    z-index: 1;
+}
+#hey-there-statment,
+#geek-out-statment{
+    text-align: center;
+}
