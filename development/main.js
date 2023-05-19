@@ -1,6 +1,6 @@
 
 // Import the js-module functions
-import bodyPositionRelative  from '/bodyPositionRelative.js';
+import {bodyPositionRelative} from './js-module.js';
 
 // Call the bodyPosition function to get the position
 const position = bodyPositionRelative();

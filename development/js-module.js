@@ -1,5 +1,5 @@
 // This function calculates the position of the <body> element relative to the document
-const bodyPositionRelative = () => {
+export const bodyPositionRelative = () => {
     const body = document.body;
   
     // Get the bounding rectangle of the <body> element relative to the viewport
@@ -17,4 +17,3 @@ const bodyPositionRelative = () => {
   
     return position;
   };
-  export default bodyPositionRelative;
